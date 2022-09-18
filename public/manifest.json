@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name":"pupvote",
+  "description": "test task 3",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "pupvote",
+    "default_icon": {
+      "28": "icon.png"
+    }
+  },
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "http://*/",
+    "https://*/"
+  ],
+  "icons": {
+    "28": "icon.png"
+  }
+}
